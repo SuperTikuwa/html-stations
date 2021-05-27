@@ -18,9 +18,12 @@
   }
 
   .card__description {
+    width: 280px;
     font-size: 8px;
     color: #282828;
+    overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 
