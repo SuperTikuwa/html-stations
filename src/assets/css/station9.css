@@ -27,16 +27,6 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .card__title {
-    font-size: 12px;
-    color: #282828;
-  }
-
-  .card__description {
-    display: none;
-  }
-}
 .card__img-top {
   width: 288px;
   height: 182px;
@@ -46,6 +36,17 @@
 .card__description {
   font-size: 12px;
   color: #282828;
+}
+
+@media screen and (max-width: 320px) {
+  .card__title {
+    font-size: 12px;
+    color: #282828;
+  }
+
+  .card__description {
+    display: none;
+  }
 }
 
 .card-container {
